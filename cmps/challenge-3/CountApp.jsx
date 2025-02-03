@@ -3,7 +3,7 @@ import { CountDown } from "./CountDown.jsx";
 const { useState, useEffect, useRef } = React;
 
 export function CountApp() {
-  const sound = new Audio("react-basic-proj/assets/audio/timer.mp3");
+  const sound = new Audio("assets/audio/timer.mp3");
   const [number, setNumber] = useState(0);
   const [countKey, setCountKey] = useState(0);
   const [isDisplayCounter, setIsDisplayCounter] = useState(false);
