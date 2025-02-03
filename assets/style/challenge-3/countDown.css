@@ -1,0 +1,48 @@
+.count-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  padding: 10px;
+}
+
+.counter-settings {
+  background-color: var(--gray1);
+  border-radius: 10px;
+  border: solid var(--clr2bg);
+  border-width: 5px;
+}
+
+.counter-settings input {
+  margin-inline-end: 10px;
+}
+
+.counter-display {
+  margin: auto;
+
+  height: 30%;
+  width: 30%;
+  border: solid var(--clr2bg);
+  border-radius: 10px;
+  background-color: var(--gray1);
+  border-width: 5px;
+  text-align: center;
+  align-content: center;
+}
+
+.counter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black;
+  font-size: 2em;
+}
+
+.timer-emoji {
+  font-size: 2em;
+}
+
+.counter.last {
+  color: red;
+}

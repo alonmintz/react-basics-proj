@@ -1,0 +1,14 @@
+.mouse-monitor * {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.mouse-monitor {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background-color: black;
+  border: solid var(--clr2bg);
+  padding: 10px;
+  width: 30vw;
+}

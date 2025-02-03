@@ -1,0 +1,93 @@
+* {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.watcher-app {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.watcher-header {
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+.watcher-header h1 {
+  font-size: 2em;
+}
+
+.watcher-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.watcher-card {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: 60% 20% 20%;
+  height: 250px;
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+  background-color: var(--clr2bg-light);
+  border: solid black;
+  border-radius: 10px;
+}
+
+.watcher-card img {
+  grid-column: 1 /-1;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.watcher-card h3 {
+  grid-column: 1 /-1;
+  grid-row: 2/3;
+
+  justify-self: center;
+}
+
+.watcher-card button {
+  text-align: center;
+  width: 50%;
+  justify-self: center;
+  align-self: self-end;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50%;
+}
+
+.watcher-card .remove {
+  grid-column: 1 /2;
+  grid-row: 3/4;
+}
+
+.watcher-card .select {
+  grid-column: 2 /3;
+  grid-row: 3/4;
+}
+
+.modal {
+  position: absolute;
+  top: 30%;
+}
+
+.add-watcher-modal form {
+  text-align: center;
+}
+
+.watcher-modal {
+  text-align: center;
+}

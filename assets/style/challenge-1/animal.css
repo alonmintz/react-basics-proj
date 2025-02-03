@@ -1,0 +1,19 @@
+.animal-table {
+  justify-self: center;
+}
+
+.animal-table table {
+  border-collapse: collapse;
+  background-color: var(--clr2bg);
+}
+
+.animal-table table th,
+.animal-table table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.animal-table table td a:hover {
+  border-bottom: solid;
+  border-width: 1px;
+}

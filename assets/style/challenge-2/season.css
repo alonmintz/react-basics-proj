@@ -1,0 +1,58 @@
+.season-card {
+  height: 100%;
+}
+
+.season-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 20%;
+  height: 100%;
+  border: solid black;
+  color: black;
+
+  justify-self: center;
+}
+
+.season-item h1 {
+  font-size: 1em;
+}
+
+.season-item.dark {
+  color: antiquewhite;
+}
+
+.season-item.winter {
+  background-color: rgb(155, 155, 233);
+}
+
+.season-item.winter.dark {
+  background-color: rgb(42, 42, 226);
+}
+
+.season-item.spring {
+  background-color: rgb(161, 224, 172);
+}
+
+.season-item.spring.dark {
+  background-color: rgb(7, 58, 28);
+}
+
+.season-item.summer {
+  background-color: rgb(233, 208, 140);
+}
+
+.season-item.summer.dark {
+  background-color: rgb(150, 98, 2);
+}
+
+.season-item.autumn {
+  background-color: rgb(229, 158, 238);
+}
+
+.season-item.autumn.dark {
+  background-color: rgb(65, 0, 59);
+}
