@@ -33,7 +33,7 @@ export function SeasonCard() {
 
   function getImgUrl() {
     if (!dateDetails.season) return;
-    return `assets/img/challenge-2/${dateDetails.season}.png`;
+    return `assets/img/challenge-2/${dateDetails.season.toLowerCase()}.png`;
   }
 
   const darkClass = isDark ? "dark" : "";
